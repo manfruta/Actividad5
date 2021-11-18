@@ -2,7 +2,7 @@
 Cifrado Simétrico y Asimétrico
 
 
-# Para la actividad de trabajo con Python Flask y Mongodb Marcelo Luengo
+# Para la actividad se trabajo con Python Flask y Mongodb Marcelo Luengo
 
 
 ### Se crea ambiente virtual
