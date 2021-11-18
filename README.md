@@ -31,23 +31,14 @@ pip install flask pymongo
 ```
 pip install Flask-PyMongo
 ```
-
-
-
-
-
-
-
-
-
-
 ### Iniciar servidor mongodb
 ```
 mongod
 ```
-# Ejecutar API Rest
+# Ejecutar API Rest y se utiliza POSTMAN para las pruebas de la api 
 ```
 python src/app.py
 ```
+
 
 
