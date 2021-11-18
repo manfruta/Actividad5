@@ -35,10 +35,6 @@ pip install Flask-PyMongo
 
 
 
-# Ejecutar API Rest
-```
-python src/app.py
-```
 
 
 
@@ -49,6 +45,10 @@ python src/app.py
 ### Iniciar servidor mongodb
 ```
 mongod
+```
+# Ejecutar API Rest
+```
+python src/app.py
 ```
 
 
