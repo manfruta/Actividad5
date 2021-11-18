@@ -17,20 +17,17 @@ pip install virtualenv
 
 ```
 virtualenv env
-
 ```
 
 ### Avtivar entorno virtual
 
 ```
 .\env\Scripts\activate
-
 ```
 ### Instalar flask y establecer conexión con mongodb
 
 ```
 pip install flask pymongo
-
 ```
 ```
 pip install Flask-PyMongo
