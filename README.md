@@ -10,7 +10,6 @@ Cifrado Simétrico y Asimétrico
 
 ```
 pip install virtualenv
-
 ```
 
 ### Se le da un nombre al ambiente virtual
