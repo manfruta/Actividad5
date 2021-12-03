@@ -18,6 +18,17 @@ const client = new Client({
     ssl: {rejectUnauthorized: false}
   })
   client.connect()
+  client.query('SELECT * from criptomarze', (err, res) =>{
+    console.log(err, res)
+    client.end()
+  })
+
+  app.get('/tabla', (req,res)=>{
+    client.query('SELECT * from cripto', (err, res) => {
+        console.log(err, res)
+        client.end()
+    })
+    })
 
 app.listen(process.env.PORT,()=>{
     console.log("funcionandooooooo");
