@@ -20,7 +20,7 @@ const client = new Client({
   client.connect()
   client.query('SELECT * from criptomarze', (err, res) =>{
     console.log(err, res)
-    client.end()
+    
   })
 
   app.get('/tabla', (req,res)=>{
