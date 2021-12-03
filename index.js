@@ -17,11 +17,12 @@ const client = new Client({
     connectionString: process.env.DATABASE_URL, //
     ssl: {rejectUnauthorized: false}
   })
-  client.connect()
+  
   
 
   app.get('/tabla', (req,res)=>{
     let datos = {}
+    client.connect()
 
     client.query('SELECT * from criptomarze', (err, res) => {
        // console.log(err, res)
