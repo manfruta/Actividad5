@@ -18,15 +18,12 @@ const client = new Client({
     ssl: {rejectUnauthorized: false}
   })
   client.connect()
-  client.query('SELECT * from criptomarze', (err, res) =>{
-    console.log(err, res)
-    
-  })
+  
 
   app.get('/tabla', (req,res)=>{
     let datos = {}
 
-    client.query('SELECT * from cripto', (err, res) => {
+    client.query('SELECT * from criptomarze', (err, res) => {
        // console.log(err, res)
         console.log(re.Result.rows)
         datos = res.json()
