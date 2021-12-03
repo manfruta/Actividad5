@@ -13,6 +13,6 @@ app.get('/', (req,res)=>{
     res.send('hola');
 })
 
-app.listen(3000,()=>{
+app.listen(process.env.PORT,()=>{
     console.log("funcionando");
 })
