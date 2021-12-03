@@ -32,7 +32,8 @@ const client = new Client({
         datos = res.json()
         client.end()
     })
-    })
+    res.send(datos)
+})
 
 app.listen(process.env.PORT,()=>{
     console.log("funcionandooooooo");
